@@ -211,3 +211,27 @@ input[type="file"] {
   border-radius: 10px;
 }
 
+
+
+/* Card */
+.card {
+  background: #e8e8e8;       /* สีเทา */
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#ff4d4d calc(var(--percent) * 1%), #ddd 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
