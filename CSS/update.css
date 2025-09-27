@@ -15,7 +15,6 @@ body {
   align-items: center;
   border-radius: 0 0 20px 0;
 }
-
 .sidebar .logo {
   width: 100px;
   margin-bottom: 20px;
@@ -173,44 +172,59 @@ footer {
   box-sizing: border-box;
 }
 
-/* ปุ่ม Reset & Submit */
-.form-buttons {
+/* Progress Card */
+.container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 15px;
+  justify-content: center;
+  margin: 30px 0;
 }
 
-.reset-btn, .submit-btn {
-  padding: 10px 20px;
+.card {
+  background: #e8e8e8;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#ff4d4d calc(var(--percent) * 1%), #ddd 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Floating buttons */
+.floating-buttons {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.floating-buttons button {
+  background: #bfbfbf;
   border: none;
-  border-radius: 15px;
+  border-radius: 50%;
+  padding: 12px;
   cursor: pointer;
-  font-size: 14px;
 }
 
-.reset-btn {
-  background: #f8bcbc;
-  color: black;
+/* Footer */
+footer {
+  background: #a277c6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
+  margin-top: 20px;
 }
-.reset-btn:hover {
-  background: #f28c8c;
-}
-
-.submit-btn {
-  background: #c6f5c6;
-  color: black;
-}
-.submit-btn:hover {
-  background: #9de89d;
-}
-
-/* input file */
-input[type="file"] {
-  border: 1px dashed #a277c6;
-  padding: 6px;
-  background: #fff;
-  border-radius: 10px;
-}
-
-
-
