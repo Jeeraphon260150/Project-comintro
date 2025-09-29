@@ -99,12 +99,14 @@ body {
 }
 
 .footer {
-  margin-top: 15px;
-  background: #a277c6;
-  color: white;
-  padding: 10px;
-  border-radius: 20px;
-}
+      background: #b89ccf;
+      text-align: center;
+      padding: 15px;
+      border-radius: 20px;
+      margin: 20px;
+      font-weight: bold;
+      color: white;
+    }
 
 /* Floating buttons */
 .floating-buttons {
