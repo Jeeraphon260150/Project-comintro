@@ -318,6 +318,10 @@ td a:hover {
   background: #efe8f4;
   color: rgb(69, 64, 73);
 }
+.form-radio {
+  margin-top: 20px;
+  text-align: left;
+}
 
 
 /* Footer */
