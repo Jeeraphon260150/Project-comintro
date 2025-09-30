@@ -44,6 +44,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none; 
+  transition: background 0.3s;
 }
 
 .sidebar button:hover,
@@ -100,6 +101,7 @@ body {
   border-radius: 20px;
   cursor: pointer;
   white-space: nowrap;
+  transition: background 0.3s;
 }
 .nav-buttons button:hover {
   background: #efe8f4;
@@ -126,6 +128,7 @@ body {
   background: #a06cb3;
   color: white;
   cursor: pointer;
+  transition: background 0.3s;
 }
 .search-box button:hover {
   background: #efe8f4;

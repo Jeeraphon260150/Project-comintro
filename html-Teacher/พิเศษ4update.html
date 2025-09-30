@@ -2,8 +2,8 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>Teacher</title>
-  <link rel="stylesheet" href="/CSS/home.css">
+  <title>โครงงานพิเศษ</title>
+  <link rel="stylesheet" href="/CSS/home-Teacher.css">
 </head>
 <body>
   <div class="container">
@@ -35,10 +35,28 @@
         </div>
       </nav>
 
-      <!-- Content -->
-      <section class="content">
-        <img src="/image/fitm.jpg" alt="FITM" class="main-image">
-      </section>
+      
+       <div class="progress-container">
+    <h3>ความคืบหน้าของนักศึกษาสัปดาห์นี้</h3>
+
+    <!-- Progress Circle -->
+    <div class="progress-circle" data-progress="65">
+      <span id="progress-text">10%</span>
+    </div>
+
+    <!-- ปุ่มดูไฟล์ -->
+    <a href="files/report.pdf" target="_blank" class="btn">ดูไฟล์</a>
+
+    <!-- ช่องคอมเมนต์ -->
+    <div class="comment-box">
+      <label for="comment">ช่องแสดงความคิดเห็น</label>
+      <textarea id="comment" placeholder="พิมพ์ความคิดเห็นที่นี่..."></textarea>
+      <a href="/html-Teacher/พิเศษ2.html">
+        <button type="button" class="submit-btn">⬅</button>
+        </a>
+    </div>
+  </div>
+      
 
       <!-- Footer -->
       <footer class="footer">
